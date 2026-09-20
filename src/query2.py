@@ -10,6 +10,6 @@ def query2():
     query2_result = churn_list[
         (churn_list['InternetService'] == 'DSL') &
         (churn_list['tenure'] < 20)
-   ][['customerID', 'gender', 'InternetService', 'tenure']]
+    ]
 
     return query2_result
